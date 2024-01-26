@@ -1,6 +1,7 @@
 import { Navbar, Card, Button, Label } from 'flowbite-react';
 import Link from 'next/link';
 import Navbar3 from '../components/navbar/navbar';
+import MangaList from '../manga-list';
 
 export default function HomeIndex() {
 
@@ -13,8 +14,7 @@ export default function HomeIndex() {
 
       {/* content */}
       <div className='grid grid-cols-[7fr,3fr] my-4 gap-4 mx-60'>
-          <Navbar3></Navbar3>
-        
+          <MangaList></MangaList>        
           <Navbar3></Navbar3>
       </div>
 
